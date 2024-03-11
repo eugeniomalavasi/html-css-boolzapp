@@ -59,11 +59,28 @@ img {
 .search_bar {
     background-color: var(--header-color);
     height: 50px;
-    padding: 1em;
+    padding: 0.5em;
 }
 
 .search_box {
     background-color: white;
-    border-radius: 5px;
     color: lightgray;
+    height: 100%;
 }
+
+/* CONTACT LIST */
+.user {
+    height: 95px;
+    background-color: white;
+    width: 100%;
+    /* debug */
+    border: 1px solid black;
+}
+
+.users_list {
+    overflow-y: auto;
+    height: calc(100vh - 265px);
+}
+
+
+/* RIGHT COLUMN */
