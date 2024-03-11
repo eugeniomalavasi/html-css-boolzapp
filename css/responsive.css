@@ -1,6 +1,6 @@
 /* HEADER MEDIA QUERY */
 /* 940PX */
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 1038px) {
     .wrapper {
         width: 100%;
         margin: 0 auto;
@@ -51,3 +51,20 @@
 }
 
 /* 440PX */
+@media screen and (max-width: 440px) {
+    .left_clmn {
+        display: none;
+    }
+
+    .right_clmn {
+        width: 100%;
+    }
+
+    .wrapper i {
+        display: none;
+    }
+
+    footer {
+        justify-content: center;
+    }
+}

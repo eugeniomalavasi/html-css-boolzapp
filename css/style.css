@@ -71,13 +71,53 @@ header img {
     padding: 0 1.5rem;
 } 
 
+.contact_info {
+    justify-self: flex-start;
+    width: 100%;
+}
+
+.contact_info h3 {
+    font-size: 1.1em;
+}
+
+.contact_info p {
+    font-size: 0.8em;
+}
+
 /* LEFT COLUMNG STYLE */
 /* NOTIFICATION  BAR */
+.round {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+}
 .notification_bar {
     background-color: var(--notification-color);
     height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0.8em;
+    justify-content: space-between;
 }
 
+.notification_bar i {
+    color: var(--notification-color);
+    font-size: 1.5em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.notification_bar h4 {
+    font-size: clamp(0.8rem, 0.9vw, 1.2rem);
+}
+
+.notification_bar a {
+    font-size: clamp(0.8rem, 0.9vw, 1.2rem);
+}
 /* SEARCH BAR */
 .search_bar {
     background-color: var(--header-color);
@@ -126,15 +166,18 @@ header img {
 }
 
 .contact_box {
-    padding-right: 7rem;
+    padding-right: 2em;
 }
 
 .user p {
     color: #B6B9BB;
+    font-size: clamp(0.8rem, 1vw, 1.2rem);
 }
 
 .user h4 {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.3rem;
+    font-size: clamp(1rem, 1.1vw, 1.2rem);
+
 }
 /* RIGHT COLUMN */
 .message_container {
@@ -144,6 +187,7 @@ header img {
     height: calc(100vh - 205px);
     overflow-y: scroll;
     background-image: url(../img/mine.jpg);
+    font-size: clamp(0.8rem, 1.1vw, 1.2rem);
 }
 
 .send {
