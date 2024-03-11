@@ -14,6 +14,7 @@ img {
 /* VARIABLES */
 :root {
     --header-color: #EAEAEA;
+    --notification-color: #8EDAFC;
 }
 
 /* COMMON */
@@ -45,4 +46,24 @@ img {
 .header {
      background-color: var(--header-color);
      height: 75px;
+}
+
+/* LEFT COLUMNG STYLE */
+/* NOTIFICATION  BAR */
+.notification_bar {
+    background-color: var(--notification-color);
+    height: 80px;
+}
+
+/* SEARCH BAR */
+.search_bar {
+    background-color: var(--header-color);
+    height: 50px;
+    padding: 1em;
+}
+
+.search_box {
+    background-color: white;
+    border-radius: 5px;
+    color: lightgray;
 }
