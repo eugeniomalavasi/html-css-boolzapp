@@ -11,5 +11,38 @@ img {
     max-width: 100%;
 }
 
-/* LEFT COLUMN  */
+/* VARIABLES */
+:root {
+    --header-color: #EAEAEA;
+}
 
+/* COMMON */
+.flex {
+    display: flex;
+}
+
+/* WRAPPER */
+.wrapper {
+    height: calc(100vh - 60px);
+    width: 80%;
+    margin: 30px auto;
+    /* debug */
+    background-color: aquamarine;
+}
+
+/* COLUMNS */
+.left_clmn {
+    width: 30%;
+    background-color: blue;
+}
+
+.right_clmn {
+    width: 70%;
+    background-color: lightcoral;
+}
+
+/* HEADER */
+.header {
+     background-color: var(--header-color);
+     height: 75px;
+}
