@@ -68,7 +68,20 @@
         display: none;
     }
 
+    .send {
+        width: 90%;
+    }
+
+    .received {
+        width: 90%;
+    }
+
     footer {
         justify-content: center;
+    }
+
+    .flex .pop_hover i {
+        font-size: 0.8rem;
+        display: inline-block;
     }
 }
