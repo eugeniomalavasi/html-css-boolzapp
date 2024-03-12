@@ -18,10 +18,23 @@ img {
     --send-color:#D5F9BA;
     --footer-icon:#6B7376;
     --header-icon:#B1B1B1;
+    --body-color:#D8DBD6;
 }
 /* TYPO */
 body {
    font-family: "Montserrat", sans-serif;
+   background-color: var(--body-color);
+}
+
+body::before {
+    content: "";
+    width: 100vw;
+    height: 150px;
+    background-color: #009688;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 /* COMMON */
 .flex {
@@ -33,6 +46,8 @@ body {
     height: calc(100vh - 60px);
     width: 80%;
     margin: 30px auto;
+    z-index: 222;
+    position: relative;
 }
 
 /* COLUMNS */
