@@ -214,6 +214,38 @@ header img {
     align-self: flex-end;
     margin-bottom: 1rem;
     font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.text_message {
+    width: 90%;
+}
+
+.received .time {
+    display: inline-block;
+    font-size: 0.8rem;
+}
+
+.send .time {
+    display: inline-block;
+    font-size: 0.8rem;
+}
+
+.received .flex {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--header-icon);
+    
+}
+
+.send .flex {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--header-icon);
 }
 
 .received {
@@ -224,7 +256,34 @@ header img {
     align-self: flex-start;
     margin-bottom: 1rem;
     font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
 }
+
+.pop_up_menu {
+    background-color: white;
+    list-style-type: none;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    display: none;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.pop_up_option {
+    padding: 10px;
+}
+
+/* hover chevron pop up menu */
+i:hover+.pop_up_menu {
+    display: block;
+    
+}
+
+
 
 /* FOOTER */
 
